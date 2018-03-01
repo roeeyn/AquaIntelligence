@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link href="/css/jquery.bxslider.css" rel="stylesheet">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
+	<meta charset="utf-8" />
+	<title>AquaIntelligence</title>
+	<link href="/css/jquery.bxslider.css" rel="stylesheet">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery.bxslider.js"></script>
+	<script src="/js/smooth-scroll.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
 
+
 </head>
+
 <body>
+
 	<div id="wrapper">
 		<header>
 			<img class="header-nam" src="/img/Name.png">
@@ -20,42 +27,43 @@
 		<div id="mainM">
 
 			<ul>
-				<li>About</li>
-				<li>Personas</li>
-				<li>Home</li>
-				<li>Log in</li>
+				<li class="selected"><a href="#.">Home</a></li>				
+				<li><a href="/pages/about.html">About</a></li>
+				<li><a href="https://www.google.com">Personas</a></li>
+				<li><a href="/pages/signup.html">Log in</a></li>
 			</ul>
 
 		</div>
 
 		<div id="fishT">
-			<img src="/img/fishTank.jpg">
+			<!-- <img src="/img/fishTank.jpg"> -->
 
-		<div id="signUp">
-			<h1>Sign up</h1>
-			<hr>
-			<br>
-			<input type="text" placeholder="Full name" name="username" size="30" maxlength="20" required="">
-			<br>
-			<input type="email" placeholder="Email" name="username" size="30" maxlength="20" required="">
-			<br>
-			<input type="password" placeholder="Password" name="username" size="30" maxlength="20" required="">
-			<br>
-			<button id="boton">Create your account</button>
-			<p>By crating an account, you agree our <a href="#">Terms</a></p>
-			<p>Already hace an account? <a href="#">Sign up</a></p>
+			<div id="signUp">
+				<h1>Sign up</h1>
+				<hr>
+				<br>
+				<input type="text" placeholder="Full name" name="username" size="30" maxlength="20" required="">
+				<br>
+				<input type="email" placeholder="Email" name="username" size="30" maxlength="20" required="">
+				<br>
+				<input type="password" placeholder="Password" name="username" size="30" maxlength="20" required="">
+				<br>
+				<button id="boton">Create your account</button>
+				<p>By creating an account, you agree our
+					<a href="#">Terms</a>
+				</p>
+				<p>Already have an account?
+					<a href="#">Sign up</a>
+				</p>
+			</div>
+
 		</div>
-
-	</div>
 
 	</div>
 
 	<script>
 
-        $('.ham').on('click', function(){
-            $('nav').slideToggle();
-        });
-
-    </script>
+	</script>
 </body>
+
 </html>
