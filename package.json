@@ -1,0 +1,14 @@
+{
+  "name": "aqua-intelligence",
+  "version": "1.0.0",
+  "description": "Frontend for HCI Class",
+  "main": "index.js",
+  "author": "Rodrigo M.",
+  "license": "MIT",
+  "scripts": {
+    "dev":"live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
